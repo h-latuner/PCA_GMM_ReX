@@ -1,5 +1,7 @@
 # PCA–GMM identification of recrystallized grains from EBSD data
 
+[![DOI](https://img.shields.io/badge/DOI-10.1016/j.matchar.2025.115920-blue)](https://doi.org/10.1016/j.matchar.2025.115920)  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/h-latuner/PCA_GMM_ReX/HEAD?urlpath=%2Fdoc%2Ftree%2FPCA_GMM_ReX.ipynb)
+
 This repository contains a Jupyter Notebook designed to perform PCA–GMM analysis on EBSD grain data in order to identify recrystallized and deformed grain populations.
 
 ## Repository Content
@@ -47,3 +49,22 @@ pip install -r requirements.txt
 ```
 
 - Once the virtual environment has been created in the folder containing the files, you can run the Jupyter code on your usual IDE (or copy the code to use it with Python).
+
+## Citation
+
+If you use this code or the data from the related research, please cite the following paper:
+[![DOI](https://img.shields.io/badge/DOI-10.1016/j.matchar.2025.115920-blue)](https://doi.org/10.1016/j.matchar.2025.115920)
+
+**Plain Text:**
+> H. Latuner et al. (2025). Identification of recrystallized grains in EBSD maps: Automated adaptive thresholding using a Gaussian mixture approach. *Materials Characterization*. https://doi.org/10.1016/j.matchar.2025.115920
+
+**BibTeX:**
+```bibtex
+@article{Latuner2025,
+  title = {Identification of recrystallized grains in EBSD maps: Automated adaptive thresholding using a Gaussian mixture approach},
+  journal = {Materials Characterization},
+  year = {2025},
+  doi = {10.1016/j.matchar.2025.115920},
+  url = {[https://doi.org/10.1016/j.matchar.2025.115920](https://doi.org/10.1016/j.matchar.2025.115920)},
+  publisher = {Elsevier}
+}
